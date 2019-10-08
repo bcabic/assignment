@@ -8,10 +8,7 @@ node_js:
 cache: npm
 
 before_install:
-  - ls -la
-# make directory for build
-  - mkdir dist
-  - cd dist
+  - mkdir public
   - ls -la
 
 install:

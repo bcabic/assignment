@@ -1,17 +1,17 @@
 # https://github.com/bcabic/course-material
 # bcabic
-language: node_js
 
+language: node_js
 node_js:
-  - "10.9.0"
+  - 10.9.0
 
 cache: npm
 
-before_install:
-  - mkdir public
-  - ls -la
-
 install:
-  - ls -la
   - npm install
-  - ls -la
+
+script:
+  - npm run build
+  - npm run test
+
+

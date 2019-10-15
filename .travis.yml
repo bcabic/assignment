@@ -9,7 +9,7 @@ cache: npm
 
 env:
   global:
-    - NOW_TOKEN=assignment-5zi8vbwtz.now.sh
+    - NOW_TOKEN=frUSsmvbMoAbSDSqVCpHQQAZ
 
 
 before_install:

@@ -7,9 +7,9 @@ node_js:
 
 cache: npm
 
-env:
-  global:
-    - NOW_TOKEN=frUSsmvbMoAbSDSqVCpHQQAZ
+#env:
+ # global:
+  #  - NOW_TOKEN=frUSsmvbMoAbSDSqVCpHQQAZ
 
 
 before_install:

@@ -1,5 +1,5 @@
 # https://github.com/bcabic/course-material
-
+# bcabic
 language: node_js
 
 node_js:
@@ -8,4 +8,10 @@ node_js:
 cache: npm
 
 before_install:
+  - mkdir public
+  - ls -la
+
+install:
+  - ls -la
+  - npm install
   - ls -la
